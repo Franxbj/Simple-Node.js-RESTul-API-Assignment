@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  background: #eff4fd;
+  
+  }
+
+.hero {
+	width: 100%;
+}
+
+.main {
+  text-align: center;
+  display: grid;
+  height:fit-content;
+}
+
+.main p {
+  line-height: 30px;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  background-color: rgb(127, 234, 239);
+  color:black;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.borrow a {
+	background: #212121;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	margin: 30px 0;
+	border-radius: 5px;
+}
+
+.card {
+  box-shadow: 0px 0px 8px #ccc;
+  padding: 1rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.card p {
+  text-align: left;
+  font-weight: bold;
+}
+
+.container div {
+  display: flex;
+  flex-basis: 40%;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+}
+
+.detel h1 {
+	font-size: 50px;
+	color: #212121;
+	margin-bottom: 20px;
+}
+
+span {
+	color: #0D6EFD;
+}
+
+.detel p{
+	color: #555;
+	line-height: 22px;
+}
+
+.detel a {
+	background: #212121;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	margin: 30px 0;
+	border-radius: 5px;
+}

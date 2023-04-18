@@ -1,0 +1,39 @@
+{{>header}}
+
+<h1>{{pagetitle}}</h1>
+
+<div class = "main">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed ligula sed odio viverra cursus eget sit amet erat. Aenean pulvinar elit vitae laoreet viverra. Aenean a magna ornare, molestie erat sed, lobortis felis. Cras sed leo vehicula, suscipit odio at, feugiat enim. In a diam non sapien commodo finibus eu porta urna. Nam sagittis blandit nisi a porta. Etiam bibendum consequat mauris, et lacinia purus dictum et. Nulla facilisis tellus vehicula placerat tincidunt. In vitae tellus id diam porta fermentum non eget diam
+    </p>
+
+     <p>
+        Thank you for visiting our Book Collection. Take your time to browse through
+    </p>
+
+    <div class="container">
+        <div class="cards">
+            {{#each books}}
+                <div class="card">
+                    <h2>{{this.title}}</h2>
+                    <p>Author:<span> {{this.author}}</span></p>
+                    <p>Genre:<span> {{this.genre}}</span></p>
+                    <p>Year of Publication:<span> {{this.yearOfPublication}}</span></p>
+                    <p>Rating:<span> {{this.rating}}</span></p>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+
+    <div class="detel">
+		<h1>Read good <span>BOOKS</span></h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			<br> Etiam bibendum consequat mauris, et lacinia purus dictum et.
+		</p>
+		<a href="#"> LIBRARY</a>
+		<a href="#"> BRITANICA</a>
+	</div>
+    
+</div>
+
+{{>footer}}

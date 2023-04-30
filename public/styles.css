@@ -18,12 +18,12 @@ body {
 }
 
 .main p {
-  line-height: 30px;
+  line-height: 1.5;
   text-align: center;
 }
 
 .footer {
-  position: fixed;
+  position:fixed;
   background-color: rgb(127, 234, 239);
   color:black;
   left: 0;
@@ -53,6 +53,7 @@ body {
 .card p {
   text-align: left;
   font-weight: bold;
+  line-height: 1.5;
 }
 
 .container div {
@@ -77,7 +78,7 @@ span {
 
 .detel p{
 	color: #555;
-	line-height: 22px;
+	line-height: 1.5;
 }
 
 .detel a {
